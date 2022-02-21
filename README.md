@@ -13,15 +13,21 @@ Two areas of the data that I highlighted were the Outcomes based on Launch Date 
 
 ### Analysis of Outcomes Based on Launch Date
 
+This selection of data compares the outcomes of theater kickstarters based on the month of each's respective launch date. I created a PivotTable and May and June are the two months in which the highest number of successful theater kickstarters were launched. The data shows that the failed and canceled numbers did not vary much with the launch month. The month of December proves to have the lowest number of successful theater kickstarters.
+
 ### Analysis of Outcomes Based on Goals
+
+This analysis categorizes the kickstarters based on the goal amounts in order to show the differences in results. The percentages of successful, failed and canceled kickstarters were plotted against the varying goal amounts. The results align with the logic that if the goal amount is extremely high, such as $45,000 or more, there is a very low likelihood that the lofty goal will be reached. On the other hand, those with goals that were $35,000 to $44,999 were more successful that those with goals between $25,000 and $34,999.
 
 ### Challenges and Difficulties Encountered
 
-A challenge that was encountered during this analysis was, when creating the Outcomes Based on Goals PivotTable, ensuring that the counts of kickstarters by goal were not only counting the data for the number of successful/failed/canceled kickstarters in each goal amount range, but also only counting the number within subcategory of plays specifially. 
+One challenge that was encountered during this analysis was, when creating the Outcomes Based on Goals PivotTable, ensuring that the counts of kickstarters by goal were not only counting the data for the number of successful/failed/canceled kickstarters in each goal amount range, but also only counting the number within subcategory of plays specifially. 
 
 For example: 
 
-"=COUNTIFS(Kickstarter!D:D,">1000",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")" vs. "=COUNTIFS(Kickstarter!D:D,">1000",Kickstarter!F:F,"successful",Kickstarter!R:R)"
+"=COUNTIFS(Kickstarter!D:D,">1000",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")" 
+vs. 
+"=COUNTIFS(Kickstarter!D:D,">1000",Kickstarter!F:F,"successful",Kickstarter!R:R)"
 
 Failing to select for the number of successful kickstarters in the subcategory of plays yields a much lower result than all successful kickstarters. The same principle applies with the rest of the formulas for the counts in columns B, C, and D in that PivotTable. If the  erroneous table was plotted as a line graph, a vastly different line graph would be produced and it could have possibly been interpreted as the desired data, which would result in an inaccurate depiction of the desired data. Learning from this challenge reveals that it is important to think about the data one is asking Excel to extract and use when using formulas to create tables and graphs, as well as recognizing when things don't look right.
 
