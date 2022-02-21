@@ -1,11 +1,11 @@
 # Kickstarting with Excel
 
 ## Overview of Project
-This project is an analysis of kickstarter data with the intent to reveal the factors that may have contributed to the success. 
+This project is an analysis of kickstarter data. 
 
 ### Purpose
 
-The purpose of this project is to show how different kickstarter campaigns fared in relation to their launch dates and funding goals. 
+The purpose of this project is to show how different kickstarter campaigns with the intent to reveal the factors that may have contributed to the success.
 
 ## Analysis and Challenges
 
