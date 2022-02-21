@@ -5,7 +5,7 @@ This project is an analysis of kickstarter data.
 
 ### Purpose
 
-The purpose of this project is to show how different kickstarter campaigns with the intent to reveal the factors that may have contributed to the success.
+The purpose of this project is to showcase the data from different kickstarter campaigns with the intent to reveal the factors that may have contributed to their success.
 
 ## Analysis and Challenges
 
@@ -35,11 +35,11 @@ Failing to select for the number of successful kickstarters in the subcategory o
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-The Outcomes based on Launch Date shows some important findings. Firstly, when looking at Theater Outcomes_vs_Launch.png: ![Theater_Outcomes_vs_Launch.png](https://github.com/stephperillo/kickstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch.png) the line graph shows that the outcomes of theater kickstarters that launched in the months of May and June, despite the year, had a higher number of successful kickstarters compared to those with launch dates in other months, especially those that launched in the month of December. Another conclusion from this analysis is that the number of failed kickstarters remains relatively stable and has not ever dropped down below 31 or risen to over 52 per month. Overall, the number of successful theater kickstarters has always been greater than the number of failed and canceled theater kickstarters, which indicates that it would be worth a try to start a theater kickstarter. 
+The Outcomes based on Launch Date shows some important findings. Firstly, when looking at Theater Outcomes_vs_Launch.png: ![Theater_Outcomes_vs_Launch.png](https://github.com/stephperillo/kickstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch.png) The line graph shows that the outcomes of theater kickstarters that launched in the months of May and June, despite the year, had a higher number of successful kickstarters compared to those with launch dates in other months, especially those that launched in the month of December. Another conclusion from this analysis is that the number of failed kickstarters remains relatively stable and has not ever dropped down below 31 or risen to over 52 per month. Overall, the number of successful theater kickstarters has always been greater than the number of failed and canceled theater kickstarters, which indicates that it would be worth a try to start a theater kickstarter. 
 
 - What can you conclude about the Outcomes based on Goals?
 
-The Outcomes based on Goals line graph ![Outcomes_vs_Goals.png](https://github.com/stephperillo/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png) clearly shows that kickstarters with goals that were set to $45,000 or higher have failed at least 88 percent of the time, with those in the $45,000 to $49,000 goal range failing 100 percent of the time. If one is planning to start a new kickstarter for plays, it would be wise not to set the goal too high, since there is a high likelihood of failure. The goal range with the highest success rate relative to fail rate is $1000 to $4999, so setting the goal to an amount in this range may be best.  
+The Outcomes based on Goals line graph: ![Outcomes_vs_Goals.png](https://github.com/stephperillo/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png) clearly shows that kickstarters with goals that were set to $45,000 or higher have failed at least 88 percent of the time, with those in the $45,000 to $49,000 goal range failing 100 percent of the time. If one is planning to start a new kickstarter for plays, it would be wise not to set the goal too high, since there is a high likelihood of failure. The goal range with the highest success rate relative to fail rate is $1000 to $4999, so setting the goal to an amount in this range may be best.  
 
 - What are some limitations of this dataset?
 While this dataset highlights interesting facts about theater kickstarters, this dataset has its limitations. A helpful sub level category of play genre or type, such as comedy or drama, could help reveal trends about the types of plays that have successful kickstarters so that theater professionals make more informed decisions about the type of play they may choose to begin producing and crowdfunding.
