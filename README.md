@@ -17,7 +17,12 @@ Two areas of the data that I highlighted were the Outcomes based on Launch Date 
 
 ### Challenges and Difficulties Encountered
 
-A challenge that was encountered during this analysis was, when creating the Outcomes Based on Goals PivotTable, ensuring that the counts of kickstarters by goal were not only counting the data for the number of successful/failed/canceled kickstarters in each goal amount range, but also only counting the number within subcategory of plays specifially. For example: "=COUNTIFS(Kickstarter!D:D,">1000",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")" vs. "=COUNTIFS(Kickstarter!D:D,">1000",Kickstarter!F:F,"successful",Kickstarter!R:R)"
+A challenge that was encountered during this analysis was, when creating the Outcomes Based on Goals PivotTable, ensuring that the counts of kickstarters by goal were not only counting the data for the number of successful/failed/canceled kickstarters in each goal amount range, but also only counting the number within subcategory of plays specifially. 
+
+For example: 
+
+"=COUNTIFS(Kickstarter!D:D,">1000",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")" vs. "=COUNTIFS(Kickstarter!D:D,">1000",Kickstarter!F:F,"successful",Kickstarter!R:R)"
+
 Failing to select for the number of successful kickstarters in the subcategory of plays yields a much lower result than all successful kickstarters. The same principle applies with the rest of the formulas for the counts in columns B, C, and D in that PivotTable. If the  erroneous table was plotted as a line graph, a vastly different line graph would be produced and it could have possibly been interpreted as the desired data, which would result in an inaccurate depiction of the desired data. Learning from this challenge reveals that it is important to think about the data one is asking Excel to extract and use when using formulas to create tables and graphs, as well as recognizing when things don't look right.
 
 ## Results
