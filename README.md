@@ -42,7 +42,9 @@ The Outcomes based on Launch Date shows some important findings. Firstly, when l
 The Outcomes based on Goals line graph: ![Outcomes_vs_Goals.png](https://github.com/stephperillo/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png) clearly shows that kickstarters with goals that were set to $45,000 or higher have failed at least 88 percent of the time, with those in the $45,000 to $49,000 goal range failing 100 percent of the time. If one is planning to start a new kickstarter for plays, it would be wise not to set the goal too high, since there is a high likelihood of failure. The goal range with the highest success rate relative to fail rate is $1000 to $4999, so setting the goal to an amount in this range may be best.  
 
 - What are some limitations of this dataset?
+
 While this dataset highlights interesting facts about theater kickstarters, this dataset has its limitations. A helpful sub level category of play genre or type, such as comedy or drama, could help reveal trends about the types of plays that have successful kickstarters so that theater professionals make more informed decisions about the type of play they may choose to begin producing and crowdfunding.
 
 - What are some other possible tables and/or graphs that we could create?
+
 It would be useful to create other tables and graphs with this dataset. One example of this would be a table and graph to show the differences in deadline duration to portray if the duration of the kickstarter tends to affect the success rate, and if so, how.  
